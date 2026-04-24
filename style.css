@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #111827, #0b0f19, #1f2937);
+    color: #e5e7eb;
+    padding: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 10px 0;
+}
+
+.logo {
+    color: #f3f4f6;
+    letter-spacing: 1px;
+}
+
+.nav a {
+    margin-left: 15px;
+    color: #d1d5db;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    color: #ffffff;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: #f3f4f6;
+}
+
+.hero p {
+    opacity: 0.8;
+    color: #9ca3af;
+}
+
+.profile-img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #6b7280;
+    display: block;
+    margin: 20px auto;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    border-radius: 15px;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 800px;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+h2 {
+    color: #e5e7eb;
+    margin-bottom: 10px;
+}
+
+.skills span {
+    display: inline-block;
+    background: rgba(255,255,255,0.08);
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 20px;
+    color: #d1d5db;
+}
+
+.project-card {
+    margin-top: 15px;
+    padding: 15px;
+    background: rgba(255,255,255,0.04);
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.08);
+}
+
+.project-card h3 {
+    color: #f3f4f6;
+    margin-bottom: 5px;
+}
+
+.project-card p {
+    font-size: 14px;
+    opacity: 0.85;
+    color: #cbd5e1;
+}
+
+.tag {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 4px 10px;
+    font-size: 12px;
+    background: #374151;
+    border-radius: 20px;
+    color: #e5e7eb;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    opacity: 0.6;
+    color: #9ca3af;
+}
